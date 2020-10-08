@@ -10,6 +10,7 @@ public class DemoApplication {
 	
 	
 	private String ttt = "tttt";
+	private String add = "tttt1";
 	
 	@RequestMapping("/")
 	 public String home() {
