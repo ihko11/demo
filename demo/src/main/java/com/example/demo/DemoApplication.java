@@ -9,8 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoApplication {
 	
 	
-	private String ttt = "tttt";
-	private String add = "tttt1";
+	private String ttt = "tttt111111111111";
+	private String add = "tttt1111111111111111111";
+	private String add1 = "tttt1111111111111111111";
+	private String add2 = "tttt111111111111111";
 	
 	@RequestMapping("/")
 	 public String home() {
