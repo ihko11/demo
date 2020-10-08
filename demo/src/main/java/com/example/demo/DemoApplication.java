@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class DemoApplication {
 	
+	
 	private String ttt = "tttt";
 	
 	@RequestMapping("/")
