@@ -11,6 +11,12 @@ public class DemoApplication {
 	
 	private String ttt = "tttt";
 	private String add = "tttt1";
+	private String add1 = "tttt1";
+	private String add2 = "tttt1";
+	private String add3 = "tttt1";
+	
+	
+	
 	
 	@RequestMapping("/")
 	 public String home() {
