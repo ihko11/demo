@@ -1,3 +1,5 @@
+server:  port: 3000
+
 spring:
   devtools:
     restart:
@@ -6,4 +8,4 @@ spring:
      enabled: true  thymeleaf:    check-template-location: true
     suffix: .html
     mode: HTML5
-    cache: false 
+    cache: false   datasource:    driver-class-name: com.mysql.jdbc.Driver    url: jdbc:mysql://localhost:3306/mybatis?characterEncoding=UTF-8&useTimezone=true&serverTimezone=Asia/Seoul    username: ihko11    password: koinho1mybatis: # type을 쉽게 쓰기 위해서 dto 패키지를 type-aliaes에 설정  type-aliases-package: com.example.demo.mybatis.dto     
