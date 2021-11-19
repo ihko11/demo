@@ -8,4 +8,4 @@ spring:
      enabled: true  thymeleaf:    check-template-location: true
     suffix: .html
     mode: HTML5
-    cache: false   datasource:    driver-class-name: oracle.jdbc.OracleDriver    url: jdbc:oracle:thin:@100.150.13.230:1521:ORCL    username: study    password: akdlzmfh7mybatis: # type을 쉽게 쓰기 위해서 dto 패키지를 type-aliaes에 설정  type-aliases-package: com.example.demo.mybatis.dto    mapper-locations: classpath:mapper/**/*.xml  configuration:    lazy-loading-enabled: true    aggressive-lazy-loading: true    map-underscore-to-camel-case: true
+    cache: false   datasource:    driver-class-name: oracle.jdbc.OracleDriver    username: study    password: akdlzmfh7mybatis: # type을 쉽게 쓰기 위해서 dto 패키지를 type-aliaes에 설정  type-aliases-package: com.example.demo.mybatis.dto    mapper-locations: classpath:mapper/**/*.xml  configuration:    lazy-loading-enabled: true    aggressive-lazy-loading: true    map-underscore-to-camel-case: true
