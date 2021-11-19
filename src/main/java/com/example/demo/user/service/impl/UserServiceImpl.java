@@ -33,6 +33,7 @@ public class UserServiceImpl implements UserService{
 		return userMapper.update(user);
 	}
 	
+	
 	@Override
 	public int removeUser(int id) {
 		return userMapper.delete(id);
